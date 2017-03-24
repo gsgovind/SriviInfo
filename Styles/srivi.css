@@ -1,0 +1,82 @@
+/* Remove the navbar's default margin-bottom and rounded borders  */
+    body{font-family:Verdana,Helvetica,Tahoma,Arial;font-size:12px;color:black;}
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+      
+     } 
+     /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+           
+    }
+    .col-md-7{text-align: justify;font-size:12px;border-left: 2px gray solid;}
+       .col-md-7 ul {
+  list-style-type: none;
+  }
+  
+.col-md-7 li p {
+  font: 200 12px/1.5 ;text-align:justify;
+}
+
+.col-md-7 li {
+  padding: 5px;
+  overflow: auto;
+}
+.nav li{padding-left:20px;}
+.col-md-7 li:hover {
+  background: #eee;
+  cursor:auto;
+}
+.col-md-7    li img {
+  float: left;
+  margin: 0 10px 0 0;
+  width:50px;height:50px;
+}
+    /* Set black background color, white text and some padding */
+    footer {
+       clear:both;
+   	color:white;
+   	background-color: #555;
+   	text-align: center;
+   	position:relative;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+          }
+      .row.content {height:auto;} 
+ 
+    }
+    
+/*Style for Menu - Start */
+			#SideMenu ul { list-style-type: none; padding: 0; margin: 0; width: 175px; display: inline;} 
+			#SideMenu li a { color:#080808; display:inline-block;width:100%;padding:8px 0px 8px 10px;text-decoration:none;} 
+			#SideMenu li { margin-top:2%;border-bottom:solid 1px #d8d8d8;text-align:left;margin:0 1%;
+                            box-sizing:border-box; } 
+			#SideMenu li a:hover { color:#018be8; }
+			#SideMenu li.active a{color:#018be8;}
+			@media screen and (max-width: 500px) { 
+				/*Force the menu to grow to the full width of the screen*/ 
+				#SideMenu ul { width: 100%; } /*The rest of the query is copied from our horizontal menu*/ 
+				#SideMenu li { display: block; border-bottom: 1px gray solid; } 
+				#SideMenu li:last-child { border-bottom: none; } } 
+/*Style for Menu - End */
+carousel{
+    background: #2f4357;
+    margin-top: 20px;
+}
+.carousel .item img{
+    margin: 0 auto; /* Align slide image horizontally center */
+}
+
+.collapse{background-color: #0F0F0F;}
+.container-fluid{margin:0;padding:0;}
+.col-md-2{margin:0;padding-top:15px;background-color:#f5f5f5;z-index:999;}
+.container{font-size:12px;background-color: #0F0F0F;width:100%;}
+.ulinfo li{padding:3px;}
+h1{font-size:20px;}
+h3{font-size:17px;}

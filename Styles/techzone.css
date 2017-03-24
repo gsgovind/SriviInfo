@@ -1,0 +1,100 @@
+body{font-family:Verdana,Helvetica,Tahoma,Arial;font-size:12px;color:black;}
+/* Remove the navbar's default margin-bottom and rounded borders  */
+			.navbar {
+				margin-bottom: 0;
+				border-radius: 0;font
+			}
+			/* Set gray background color and 100% height */
+			.sidenav {
+				padding-top: 20px;
+			}
+footer {
+				clear: both;
+				color: white;
+				background-color: #555;
+				text-align: center;
+				position: relative;
+			}
+
+			/* On small screens, set height to 'auto' for sidenav and grid */
+			@media screen and (max-width: 767px) {
+				.sidenav {
+					height: auto;
+					padding: 15px;
+				}
+				.row.content {
+					height: auto;
+				}
+
+			}
+			
+/*Style for Menu - Start */
+			#SideMenu ul {
+				list-style-type: none;
+				padding: 0;
+				margin: 0;
+				width: 175px;
+				display: inline;
+			}
+			/*Cause each link to fill the entire row  */
+			#SideMenu	li a {
+				display: block;
+				padding: 10px;
+				text-align: left;
+				color: #000000;
+				text-decoration: none;
+			}
+		/*Add a color to the entire menu
+			 #SideMenu ul { background-color: white; }  */
+			/*Add a border below each link*/
+			#SideMenu li {
+				border-bottom: 1px gray solid;
+			}
+			/*Remove the border form the last link in the list
+			 #SideMenu li:last-child { border-bottom: none; } */
+			/*Add some padding around each link, center the text in each link, and apply a text color*/
+			
+			/*Cause the links to change color when hovered on*/
+			#SideMenu li a:hover {
+				background-color: gray;
+			}
+			#SideMenu ul li.active{font-weight:bold;font-style:oblique;}
+			@media screen and (max-width: 500px) {
+				/*Force the menu to grow to the full width of the screen*/
+				#SideMenu ul {
+					width: 100%;
+				}/*The rest of the query is copied from our horizontal menu*/
+				#SideMenu ul li {
+					display: block;
+					border-bottom: 1px gray solid;
+				}
+				#SideMenu ul li a.lastitem{border-bottom:none;
+				}
+			}
+			/*Style for Menu - End */
+			carousel {
+				background: #2f4357;
+				margin-top: 20px;
+			}
+			.carousel .item img {
+				margin: 0 auto; /* Align slide image horizontally center */
+			}
+			.bs-example {
+				margin: 20px;
+			}
+		.col-md-7 {
+	text-align: justify;border-left:2px gray solid
+}
+.col-md-2{
+	margin:0;padding-top:15px;
+}
+.container-fluid {
+	margin:0;padding:0;
+}
+.collapse{
+	background-color: #0F0F0F;
+}
+.ulinfo li{padding:3px;}
+.nav li{padding-left:20px;}
+.col-md-3 p{text-align:center;}
+				}

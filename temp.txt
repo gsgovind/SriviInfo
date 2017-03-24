@@ -1,0 +1,63 @@
+Work Experience
+Education
+Contact details
+Projects
+Professional Skills
+
+glyphicon glyphicon-plane
+ <span class="glyphicon glyphicon-map-marker"></span>
+glyphicon glyphicon-bed
+ glyphicon glyphicon-gift
+ glyphicon glyphicon-apple
+ glyphicon glyphicon-camera
+ glyphicon glyphicon-screenshot
+
+
+Manage the flow of day-to-day operations
+Create and update reports on the team's progress to concerned personnel.
+
+ I also providing technical support for all aspects of application development. 
+                                The development support involves Visual Basic .NET, ASP.Net and SQL Server.
+                                Also supporting client support executives for application configuration related queries.
+                                
+
+
+<ul>
+							<li>
+								<a href="SriviReach.html">Reach Srivilliputtur</a>
+							</li>
+							<li>
+								<a href="SriviGeneralInfo.html">General Info</a>
+							</li>
+							<li>
+								<a href="SriviFestivals.html">Festivals</a>
+							</li>
+							<li>
+								<a href="SriviPlaces.html">Places to visit</a>
+							</li>
+							<li>
+								<a href="SriviHotels.html">Hotels and accommodations</a>
+							</li>
+							<li>
+								<a href="SriviMap.html">Srivilliputhur Map</a>
+							</li>
+							<li>
+								<a href="sqlclr.html">Enable CLR integration</a>
+							</li>
+							<li>
+								<a href="sqltcp.html">Enabling TCP/IP</a>
+							</li>
+							<li>
+								<a href="sqldebug.html">Debug a SQL Stored procedure</a>
+							</li>
+							<li>
+								<a href="ojclix.html">Earn through ClixSense</a>
+							</li>
+							<li>
+								<a href="ojblog.html">Earn through Blog</a>
+							</li>
+							<li class="lastitem">
+								<a href="ojfreel.html">Earn through Freelance Job</a>
+							</li>
+
+						</ul>
